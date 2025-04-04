@@ -1,21 +1,21 @@
-# WP Phone OTP Login
+# WP WhatsApp OTP Login
 
-[![WordPress](https://img.shields.io/wordpress/v/wp-phone-otp-login.svg)](https://wordpress.org/plugins/wp-phone-otp-login/)
+
 [![License](https://img.shields.io/badge/license-GPL--2.0%2B-blue.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
 
-## 📱 Description
+## 💬 Description
 
-WP Phone OTP Login replaces the traditional WordPress authentication system with a phone-based OTP verification process. Users can register and login using their phone numbers, making the process more secure and user-friendly.
+WP WhatsApp OTP Login replaces the traditional WordPress authentication system with a WhatsApp-based OTP verification process. Users can register and login using their WhatsApp numbers, making the process more secure and user-friendly.
 
 > **Important:** This plugin completely removes the standard WordPress login, registration, and password reset functionality.
 
 ## ✨ Features
 
-* 📱 Phone number-based login/registration
-* 🔐 OTP verification via SMS
+* 💬 WhatsApp number-based login/registration
+* 🔐 OTP verification via WhatsApp message
 * 🎨 Customizable button styling
 * 🛒 WooCommerce integration
-* 👤 User profile phone field
+* 👤 User profile WhatsApp field
 * ⚙️ Admin settings panel
 * 🚫 Removes traditional login system
 
@@ -28,17 +28,17 @@ Once activated, this plugin:
 
 ## 🚀 Installation
 
-1. Upload `wp-phone-otp-login` to `/wp-content/plugins/`
+1. Upload `wp whatsapp otp` to `/wp-content/plugins/`
 2. Activate via WordPress plugins menu
-3. Navigate to Settings > Phone OTP
+3. Navigate to Settings > WhatsApp OTP
 4. Configure API settings and customize styling
 
 ## ⚙️ Configuration
 
 ### API Settings Required
-* `API Key` - Your SMS provider's API key
-* `Base URL` - API endpoint URL
-* `Company ID` - Your provider's company identifier
+* `API Key` - Your WhatsApp Business API key
+* `Base URL` - WhatsApp API endpoint URL
+* `Company ID` - Your WhatsApp Business account identifier
 
 ### Button Styling Options
 * Background Color
@@ -51,20 +51,20 @@ Once activated, this plugin:
 
 ### Users
 1. Visit WordPress login page
-2. Enter phone number
+2. Enter WhatsApp number
 3. Click "Send OTP"
-4. Input received OTP
+4. Receive OTP via WhatsApp message
 5. Complete registration if new user
 
 ### Administrators
-1. Set up API credentials
+1. Set up WhatsApp Business API credentials
 2. Customize button appearance
-3. Manage user phone numbers
+3. Manage user WhatsApp numbers
 
 ## 🛒 WooCommerce Integration
 
 * Replaces default login/register forms
-* Maps phone numbers to billing info
+* Maps WhatsApp numbers to billing info
 * Removes password fields from checkout
 * Streamlines customer experience
 
@@ -72,7 +72,7 @@ Once activated, this plugin:
 
 * 10-minute OTP expiration
 * WordPress nonce protection
-* Secure phone number storage
+* Secure WhatsApp number storage
 * Input sanitization
 * API security measures
 
@@ -80,45 +80,48 @@ Once activated, this plugin:
 
 * WordPress 5.0+
 * PHP 7.0+
-* Active SMS API subscription
+* Active WhatsApp Business API subscription
 * SSL recommended
 
 ## ❓ FAQ
 
-**Q: Works with any SMS provider?**
-A: Yes, compatible with any HTTP API-based SMS service.
+**❓ Q: Can I use any WhatsApp Business API provider?**  
+Absolutely! this plugin is designed to work seamlessly with any WhatsApp Business API service provider, giving you the flexibility you need.
 
-**Q: Can I customize OTP messages?**
-A: Currently template-based. Customization coming in future versions.
+**✏️ Q: Is it possible to customize WhatsApp OTP messages?**  
+At the moment, the messages are template-based, but stay tuned! Customization options are on the horizon for future updates.
 
-**Q: WooCommerce compatible?**
-A: Yes, fully integrated with WooCommerce features.
+**🛒 Q: Is this plugin compatible with WooCommerce?**  
+Yes, indeed! It’s fully integrated with WooCommerce, enhancing your e-commerce experience.
 
-**Q: OTP not received?**
-A: Users can request new OTP, invalidating previous ones.
+**📩 Q: What if I don’t receive the OTP on WhatsApp?**  
+No worries! Users can easily request a new OTP, which will invalidate any previous ones, ensuring you always have access.
 
-**Q: Keep traditional login?**
-A: No, plugin completely replaces default WordPress login.
+**🔒 Q: Can I keep the traditional login method?**  
+Unfortunately, no. This plugin completely replaces the default WordPress login, streamlining the process for your users.
 
-**Q: Existing users?**
-A: Can login with phone numbers once added to their profiles.
+**👤 Q: What about existing users?**  
+Existing users can log in using their WhatsApp numbers once they’ve been added to their profiles, making the transition smooth.
+
+**🌍 Q: Are international WhatsApp numbers supported?**  
+Absolutely! this plugin supports international formats, including country codes, so you can connect with users worldwide.
 
 ## 📝 Changelog
 
 ### 1.0
 * Initial release
-* Phone OTP system
+* WhatsApp OTP system
 * WooCommerce integration
 * Button customization
 * WordPress login replacement
 
 ## 🤝 Support
 
-Need help? Found a bug? Visit our [GitHub repository](https://github.com/your-username/wp-phone-otp-login) or contact support.
+Need help? Found a bug? Visit our [GitHub repository](https://github.com/biplob-g/wp-whatsapp-login-otp) or contact support.
 
 ## 👨‍💻 Credits
 
-Developed by [Biplob Ghatak](https://github.com/your-username)
+Developed by [Biplob Ghatak](https://github.com/biplob-g)
 
 ## 📄 License
 

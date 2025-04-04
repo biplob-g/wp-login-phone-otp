@@ -1,0 +1,66 @@
+.phone-login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.login form{
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+.send-otp-button-container{
+    text-align: center;
+}
+.send-otp-button-container button{
+    cursor: pointer;
+    border: none;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+#phone-login-messages {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#phone-login-messages.error {
+    background: #ffebee;
+    color: #c62828;
+    border: 1px solid #ef9a9a;
+}
+
+#phone-login-messages.success {
+    background: #e8f5e9;
+    color: #2e7d32;
+    border: 1px solid #a5d6a7;
+}
+
+/* Hide WooCommerce default elements */
+.woocommerce-form-login__submit,
+.woocommerce-form-register__submit,
+.woocommerce-LostPassword,
+.woocommerce-privacy-policy-text {
+    display: none !important;
+}
+.copyRight {
+    padding: 12px 10px !important;
+}
